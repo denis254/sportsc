@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'sportsc.urls'
+ROOT_URLCONF = 'sports.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sportsc.wsgi.application'
+WSGI_APPLICATION = 'sports.wsgi.application'
 
 
 # Database
