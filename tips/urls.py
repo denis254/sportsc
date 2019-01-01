@@ -8,6 +8,7 @@ urlpatterns = [
     path('facebook/', views.facebook, name = "facebook"),
     path('history/', views.results, name = "history"),
     path('payment/', views.payment, name = "payment"),
+    path('pricing/', views.price, name = "price"),
     path('viptips/', views.viptips, name = "viptips"),
     path('signup/', views.signup, name = "signup"),
     path('singlebet/', views.singlebet, name = "singlebet"),
