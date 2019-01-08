@@ -113,3 +113,6 @@ def twitter(request):
 
 def facebook(request):
     return redirect("https://web.facebook.com/Predictpoacom-261755261206726/?modal=admin_todo_tour/")
+
+def app(request):
+    return redirect("https://play.google.com/store/apps/details?id=com.c.palsbet&hl=en")
